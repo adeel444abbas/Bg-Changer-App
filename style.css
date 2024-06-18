@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    border: 1px solid black;
+}
+.colorCards{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.card1{
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    border: 1px solid rgb(29, 28, 28);
+}
+.card2{
+    background-color: green;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    border: 1px solid rgb(29, 28, 28);
+}
+.card3{
+    background-color: grey;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    border: 1px solid rgb(29, 28, 28);
+}
+.card4{
+    background-color: black;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    border: 1px solid rgb(29, 28, 28);
+}
+p{
+    font-size: 18px;
+}
+
+
+/* better Logic part */
+
+#red{
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    border: 1px solid rgb(29, 28, 28);
+}
+#green{
+    background-color: green;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    border: 1px solid rgb(29, 28, 28);
+}
+#grey{
+    background-color: grey;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    border: 1px solid rgb(29, 28, 28);
+}
+#dark{
+    background-color: black;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    border: 1px solid rgb(29, 28, 28);
+}
